@@ -2,9 +2,9 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from src.config import file_contact_html
 
-# Для начала определим настройки запуска
-hostName = "localhost"  # Адрес для доступа по сети
-serverPort = 8080  # Порт для доступа по сети
+# Для начала определим настройки запуска.
+hostName = "localhost"  # Адрес для доступа по сети.
+serverPort = 8080  # Порт для доступа по сети.
 
 
 class MyServer(BaseHTTPRequestHandler):
